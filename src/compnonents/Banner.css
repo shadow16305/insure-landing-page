@@ -1,0 +1,132 @@
+h1 {
+    color: #FFF !important;
+    font-family: 'DM Serif Display', serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+    /* 88.889% */
+    letter-spacing: -1px;
+}
+
+p {
+    color: #FFF;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.banner {
+    color: #FFF;
+}
+
+.btn-custom {
+    border: 1.5px solid #FFF;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    transition: 0.25s;
+    background: transparent;
+    text-transform: uppercase;
+}
+
+.btn-custom:hover {
+    border: 1.5px solid #FFF;
+    background: #FFF;
+    color: #000;
+}
+
+.img-desktop {
+    position: absolute;
+    z-index: 0;
+}
+
+.svg-desktop {
+    z-index: 0;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.svg-desktop-two {
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    top: 550px;
+}
+
+@media (min-width:768px) {
+    .img-mobile {
+        display: none;
+    }
+
+    .banner {
+        height: 80vh;
+    }
+
+    .caption {
+        height: 80vh;
+    }
+}
+
+@media (max-width:600px) {
+    .banner {
+        height: 100vh;
+    }
+
+    .img-desktop {
+        display: none;
+    }
+
+    .svg-desktop {
+        display: none;
+    }
+
+    .svg-desktop-two {
+        display: none;
+    }
+
+    h1 {
+        color: #FFF;
+        text-align: center;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 48px;
+        /* 100% */
+        letter-spacing: -0.667px;
+    }
+
+    p {
+        color: #FFF;
+        text-align: center;
+        font-family: Karla;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        /* 162.5% */
+    }
+
+    .btn-custom {
+        color: #FFF;
+        text-align: center;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1.5px;
+    }
+
+    .border {
+        display: none !important;
+    }
+}

@@ -1,0 +1,30 @@
+.footer {
+    background: #FAFAFA;
+    margin-top: 10rem;
+}
+
+.svg-footer-desktop {
+    position: absolute;
+    z-index: 1;
+}
+
+.footer-content {
+    position: relative;
+    z-index: 10;
+}
+
+.svg-footer-mobile {
+    display: none;
+}
+
+@media (max-width:600px) {
+    .svg-footer-desktop {
+        display: none;
+    }
+
+    .svg-footer-mobile {
+        display: block;
+        position: absolute;
+        z-index: 1;
+    }
+}

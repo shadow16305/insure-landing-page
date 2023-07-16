@@ -1,0 +1,44 @@
+nav {
+    z-index: 1;
+}
+
+.nav-link {
+    font-family: 'Karla', sans-serif;
+    color: #837D88;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+    color: #2C2830;
+}
+
+.nav-link-custom {
+    border: 1.5px solid #2C2830;
+    background: #FFF;
+    font-family: 'Karla', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.25s;
+    cursor: pointer;
+    color: #2C2830;
+    text-align: center;
+    font-family: Karla;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+}
+
+.nav-link-custom:hover {
+    border: 1.5px solid #2C2830;
+    background: #2C2830;
+    color: #fff;
+    text-decoration: none;
+}

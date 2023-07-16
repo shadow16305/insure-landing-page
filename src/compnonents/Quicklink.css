@@ -1,0 +1,44 @@
+.bg-custom {
+    background-color: #2D2641;
+    margin-top: 10rem;
+}
+
+h4 {
+    color: #FFF;
+    font-family: 'DM Serif Display', serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+    /* 100% */
+    letter-spacing: -0.778px;
+}
+
+@media (min-width:768px) {
+    .svg-how-mobile {
+        display: none;
+    }
+
+    .svg-how-desktop {
+        display: block;
+        z-index: 1;
+        position: absolute;
+    }
+
+    .btn-custom {
+        position: relative;
+        z-index: 10;
+    }
+}
+
+@media (max-width:600px) {
+    .svg-how-desktop {
+        display: none;
+    }
+
+    .svg-how-mobile {
+        display: block;
+        z-index: 0;
+        position: absolute;
+    }
+}
